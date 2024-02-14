@@ -57,7 +57,7 @@ const FormAddSubs = ({ setType,
     return (
         <div className="add-subscription">
 
-            <h3>Agrgar subscripciones</h3>
+            <h3>Agregar subscripciones</h3>
 
             <form onSubmit={handleSubs}>
                 <p>Servicio</p>
