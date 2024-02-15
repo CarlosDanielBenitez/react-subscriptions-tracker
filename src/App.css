@@ -161,3 +161,17 @@ p.author a {
   font-weight: 700;
   color: #000;
 }
+
+@media screen and (max-width: 654px) {
+    .main-form{
+      flex-direction: column;
+    } 
+    .single-item{
+      flex-direction: column;
+      height: auto;
+      padding: 1rem;
+    }
+    .edit{
+      margin: 1rem 0;
+    }
+  }
