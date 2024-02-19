@@ -44,9 +44,14 @@ body{
   background-color: #060708;
   color: #fff;
 }
+.form-add-money input:hover{
+
+  background-color: #0061acc4;
+}
 .form-add-money p {
   color: #fff;
   font-weight: 500;
+  font-size: 1.7rem;
 }
 
 p.error {
@@ -173,5 +178,8 @@ p.author a {
     }
     .edit{
       margin: 1rem 0;
+    }
+    .App{
+      width: 100%;
     }
   }
